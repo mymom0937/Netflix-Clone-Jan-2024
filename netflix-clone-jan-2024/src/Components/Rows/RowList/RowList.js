@@ -18,8 +18,14 @@ const RowList = () => {
       <Row title="Romace Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Tv Show" fetchUrl={requests.fetchTvShow} />
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+
+      {/* // Additional Rows Start */}
+      <Row title="Western" fetchUrl={requests.fetchWestern} />
+      <Row title="War" fetchUrl={requests.fetchWar} />
+      <Row title="Crime" fetchUrl={requests.fetchCrime} />
+      {/* // Additional Rows End */}
     </>
   );
 }
 
-export default RowList
+export default RowList;
